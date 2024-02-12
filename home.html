@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
 </head>
 <body>
     <div class="container-fluid">
@@ -16,19 +18,19 @@
             <div class="col-8">
                 <ul class="menu_list">
                     <li>
-                        <a href="index.html">Início</a>
+                        <a href="home.html">Início</a>
                     </li>
                     <li>
-                        <a href="#">Currículo</a>
+                        <a href="curriculo.html">Currículo</a>
                     </li>
                     <li>
-                        <a href="#">Projetos</a>
+                        <a href="projetos.html">Projetos</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="contato.html">Contato</a>
                     </li>
                 </ul>
-            </div>
+          
         </header>
 
         <!-- Seção de Destaque com Carrossel -->
@@ -39,6 +41,18 @@
         <!-- Adicione o carrossel -->
         <div id="carouselDestaque" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+
+                <!-- Item 1 -->
+                <div class="carousel-item active">
+                    <div class="card">
+                        <img src="src/imagens/spotify.png" alt="Imagem do Projeto">
+                        <div class="card-body">
+                            <h5 class="card-title">Clone Spotify</h5>
+                            <p class="card-text">Clone da página inicial do Spotify, feito durante a imersão front-end Alura.</p>
+                            <a href="https://leonardowallace.github.io/clone-spotify/" target="_blank" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Item 1 -->
                 <div class="carousel-item active">
@@ -64,6 +78,7 @@
                     </div>
                 </div>
 
+                
                 <!-- Adicione mais itens conforme necessário -->
 
             </div>
@@ -83,7 +98,7 @@
 
         <!-- Rodapé -->
         <footer class="row mt-4">
-            <div class="col-12">
+            <div class="col-8">
                 <p>&copy; 2024 Leonardo Wallace. Todos os direitos reservados.</p>
             </div>
         </footer>

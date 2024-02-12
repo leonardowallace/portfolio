@@ -23,46 +23,4 @@ setTimeout(() => {
 
 setTimeout(() =>{
     link()
-},6500)
-
-let colors = ['#3498db',
-    '#e74c3c',
-    '#2ecc71',
-    '#f39c12',
-    '#9b59b6',
-    '#1abc9c',
-    '#e67e22',
-    '#27ae60',
-    '#c0392b',
-    '#2980b9',
-    '#d35400',
-    '#8e44ad',
-    '#16a085',
-    '#e74c3c',
-    '#2c3e50',
-    '#3498db',
-    '#e74c3c',
-    '#2ecc71',
-    '#f39c12',
-    '#9b59b6',
-    '#1abc9c',
-    '#e67e22',
-    '#27ae60',
-    '#c0392b',
-    '#2980b9',
-    '#d35400',
-    '#8e44ad',
-    '#16a085',
-    '#e74c3c',
-    '#2c3e50',
-]
-
-colors.map((color) =>{
-    const line = document.createElement('div')
-    const randomMargin = Math.floor(Math.random() * 1000)
-
-    line.className ='line'
-    line.style.setProperty('--m', `$[randomMargin]px`);
-    line.style.setProperty('--c', color)
-    lines.appendChild(line)
-} )
+},5000)

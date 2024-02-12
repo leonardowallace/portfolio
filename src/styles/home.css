@@ -1,0 +1,55 @@
+/* Estilos para as seções de Destaque e Categorias */
+.destaque, .categorias {
+    margin-top: 70px; /* Ajuste para compensar a altura do cabeçalho */
+    padding: 20px;
+}
+
+.destaque h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/* Cards */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    margin: auto;
+    background: #333; 
+    border: 1px solid #555; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 20rem;
+    height: 200px;
+    margin: 15px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #fff; /* Cor do título */
+}
+
+.card-text {
+    color: #ddd; /* Cor do texto do card */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Cor do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
