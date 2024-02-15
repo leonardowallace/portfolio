@@ -1,0 +1,36 @@
+.titulo{
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 15px;
+    width: max-content;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.redes{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: max-content;
+}
+
+.redes a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.redes a img{
+    width: 50px;
+    margin-right: 20px;
+}

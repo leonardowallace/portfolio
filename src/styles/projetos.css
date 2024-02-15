@@ -1,0 +1,49 @@
+.projetos {
+    margin-top: 70px; /* Ajuste para compensar a altura do cabeçalho */
+    padding: 20px;
+}
+
+.projetos h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Alterado para três colunas */
+    margin-top: 20px;
+    grid-auto-rows: 120px;
+}
+
+.card{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.card a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card img{
+    width: 5rem;
+    height: 50px;
+}
+
+.info{
+    border: solid;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+}

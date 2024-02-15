@@ -32,6 +32,11 @@
     object-fit: cover;
 }
 
+.card .spotify{
+    border-radius: 50%;
+    width: 15rem;
+}
+
 .card-body {
     padding: 20px;
 }
