@@ -1,0 +1,45 @@
+/* Media Query para Notebooks e Desktops*/
+
+@media only screen and (min-width: 768px){
+    /*header*/
+.icone i{
+    display: none;
+}
+
+
+}
+
+/* Media Query Mobile */
+@media screen and (min-width:320px) and (max-width:800px){
+    /*header*/
+    
+.menu_list{
+    display: none;
+}
+
+.icone i{
+    position: absolute;
+    right: 0;
+    margin: 0, 20px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.hidden-menu{
+    display: none;
+}
+
+.hidden-menu.show-menu {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    flex-direction: column;
+    background: black;
+    width: 100px;
+}
+
+}

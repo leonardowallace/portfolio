@@ -38,7 +38,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     padding: 20px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);
     color: white;
