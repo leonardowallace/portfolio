@@ -56,5 +56,28 @@ footer{
 .card{
     width: 20rem;
 }
+/*curriculo*/
 
+.info .perfil{
+    width: 50px;
+}
+
+.info .nome{
+    font-size: 1.2rem;
+}
+
+.info-card{
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Projetos*/
+.gallery{
+    grid-template-columns: repeat(1, 1fr); /* Alterado para tres colunas */
+    gap: 20px;
+}
+
+.car img{
+    width: 2rem;
+}
 }
